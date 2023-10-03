@@ -1,3 +1,2 @@
 FROM 'nginx:latest'
-COPY ./index.html /var/www/index.html
-RUN service nginx start
+COPY ./index.html /usr/share/nginx/html
